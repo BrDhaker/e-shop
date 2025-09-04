@@ -27,6 +27,6 @@ Check the paypal integration buttons it seems like there is an issue with the re
 ==============================================
 
 after stripe checkout am getting this blank webpage : 
-http://localhost:3000/checkout/return?session_id=cs_test_b1Mk6Aw5iv3ytiWMKVduPtmiFbWDLYFqveIRwdL6HkVqNvXPi8XKm5qdQj
+https://e-shop-irso.onrender.com/checkout/return?session_id=cs_test_b1Mk6Aw5iv3ytiWMKVduPtmiFbWDLYFqveIRwdL6HkVqNvXPi8XKm5qdQj
 am supposed to get to that order details page already made or something like that ? and am not getting an new orders when return to orders page 
 =================

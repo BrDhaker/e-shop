@@ -204,7 +204,7 @@ router.post("/forgot-password", [body("email").isEmail().normalizeEmail()], asyn
     const { email } = req.body
 
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${process.env.CLIENT_URL || "http://localhost:3000"}/reset-password`,
+      redirectTo: `${process.env.CLIENT_URL || "https://e-shop-irso.onrender.com"}/reset-password`,
     })
 
     if (error) {

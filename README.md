@@ -104,7 +104,7 @@ ADMIN_EMAIL=admin@example.com
 ADMIN_PASSWORD=admin123
 
 # Client URL for redirects
-CLIENT_URL=http://localhost:3000
+CLIENT_URL=https://e-shop-irso.onrender.com
 \`\`\`
 
 **Client (.env):**
@@ -161,9 +161,9 @@ npm run dev
 
 ### 5. Access Points
 
-- **Frontend:** http://localhost:3000
+- **Frontend:** https://e-shop-irso.onrender.com
 - **Backend API:** http://localhost:5000/api
-- **Admin Panel:** http://localhost:3000/admin
+- **Admin Panel:** https://e-shop-irso.onrender.com/admin
 
 ## 🔐 Authentication System
 

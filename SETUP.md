@@ -23,7 +23,7 @@ ADMIN_EMAIL=admin@example.com
 ADMIN_PASSWORD=admin123
 
 # Client URL for redirects
-CLIENT_URL=http://localhost:3000
+CLIENT_URL=https://e-shop-irso.onrender.com
 \`\`\`
 
 ### Client (.env)
@@ -43,7 +43,7 @@ VITE_PAYPAL_CLIENT_ID=your-paypal-client-id
 ### Configure Authentication
 1. Go to Authentication > Settings in Supabase dashboard
 2. Enable email authentication
-3. Set site URL to `http://localhost:3000`
+3. Set site URL to `https://e-shop-irso.onrender.com`
 4. Configure email templates (optional)
 
 ### Database Setup
@@ -109,9 +109,9 @@ npm run dev
 
 ## 6. Access the Application
 
-- **Frontend**: http://localhost:3000
+- **Frontend**: https://e-shop-irso.onrender.com
 - **Backend API**: http://localhost:5000/api
-- **Admin Panel**: http://localhost:3000/admin
+- **Admin Panel**: https://e-shop-irso.onrender.com/admin
 
 ## 7. Test the Application
 

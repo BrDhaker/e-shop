@@ -94,7 +94,7 @@ router.post("/create-checkout-session", authenticateToken, async (req, res) => {
       ui_mode: "embedded",
       line_items: lineItems,
       mode: "payment",
-      return_url: `${process.env.CLIENT_URL || "http://localhost:3000"}/checkout/return?session_id={CHECKOUT_SESSION_ID}`,
+      return_url: `${process.env.CLIENT_URL || "https://e-shop-irso.onrender.com"}/checkout/return?session_id={CHECKOUT_SESSION_ID}`,
       metadata: {
         user_id: userId,
         cart_items: JSON.stringify(cartItems),
