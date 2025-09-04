@@ -160,20 +160,18 @@ VITE_PAYPAL_CLIENT_ID=your-paypal-client-id
 ### 4. Installation & Running
 
 ```bash
-# Install server dependencies
+# Install server dependencies (Terminal 1 )
 cd server
 npm install
 
-# Install client dependencies
-cd ../client
+# Install client dependencies (Terminal 2 ) 
+cd client
 npm install
 
 # Run backend (Terminal 1)
-cd server
 npm run dev
 
 # Run frontend (Terminal 2)
-cd client
 npm run dev
 ```
 
@@ -393,12 +391,3 @@ Give this repo a **star** ⭐ and share it with others!
 It only takes a second, but it means a lot. 🙌
 
 ---
-
-✅ This version will render cleanly on GitHub:
-
-* Directory tree aligned
-* API endpoints properly formatted
-* Lists and code blocks consistent
-
----
-
