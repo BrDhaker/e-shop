@@ -15,7 +15,6 @@ A complete full-stack e-commerce application built with React (Vite), Node.js, E
 * 👤 User authentication with Supabase built-in auth
 * 📧 Email verification and password reset
 * 📦 Order management
-* ⭐ Product reviews and ratings system
 * 💳 Multiple payment methods:
 
   * Demo card payment for testing
