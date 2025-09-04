@@ -47,40 +47,6 @@ A complete full-stack e-commerce application built with React (Vite), Node.js, E
 - Built-in authentication system
 - Row Level Security (RLS)
 
-
-## 📁 Project Structure
-
-\`\`\`
-react-node-ecommerce/
-├── client/                 # React frontend (Vite)
-│   ├── src/
-│   │   ├── components/     # Reusable components
-│   │   │   ├── PayPalButton.jsx
-│   │   │   ├── StripeEmbeddedCheckout.jsx
-│   │   │   └── ProductCard.jsx
-│   │   ├── pages/         # Page components
-│   │   │   ├── Checkout.jsx
-│   │   │   ├── CheckoutReturn.jsx
-│   │   │   └── admin/     # Admin pages
-│   │   ├── contexts/      # React contexts
-│   │   ├── utils/         # Utility functions
-│   │   └── main.jsx       # Entry point
-│   ├── public/
-│   │   └── images/        # Product images
-│   └── package.json
-├── server/                # Node.js backend
-│   ├── routes/           # API route handlers
-│   │   ├── auth.js       # Supabase authentication
-│   │   ├── payments.js   # Stripe & PayPal integration
-│   │   └── products.js   # Product management
-│   ├── middleware/       # Express middleware
-│   ├── config/          # Configuration files
-│   └── server.js        # Server entry point
-├── scripts/             # Database setup scripts
-├── package.json        # Root package.json
-└── README.md
-\`\`\`
-
 ## ⚡ Quick Start
 
 ### 1. Environment Setup
